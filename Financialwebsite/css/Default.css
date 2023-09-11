@@ -32,11 +32,19 @@
 	margin: 10px auto 10px auto;
 	border: 1px solid #0078d5;
 }
+
+.mainfloat{
+	width: 1000px;
+	margin: 10px auto 10px auto;
+	position: fixed;
+	
+}
 .mainpic{
 	width: 1000px;
 	margin: 0px auto 0px auto;
 
 }
+
 table {
 	border-collapse: collapse;
 }
