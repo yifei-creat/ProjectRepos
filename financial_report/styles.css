@@ -14,15 +14,15 @@
     position: relative;
 }
 .dropdown-content {
-  display: none;
-  position: absolute;
-  top: 100%;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 160px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 160px;
 }
 .navbar-item:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 .down-menu ul {
     padding: 0;
@@ -30,12 +30,12 @@
     list-style: none;
 }
 .down-menu li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 6px;
-  border: 1px solid #ccc;
-  margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 0px;
 }
 .triangle-down::after {
     content: "";
@@ -62,7 +62,7 @@ a:anylink :hover {
     color: red; /* 设置悬停时的字体颜色为红色 */
 }
 .small-text:visited {
-  color: red; /* 设置已访问链接的文本颜色 */
+    color: red; /* 设置已访问链接的文本颜色 */
 }
 .flex-container ul {
     display: flex;
@@ -85,21 +85,17 @@ a:anylink :hover {
     display: flex;
     align-items: center;
 }
-
 #section1, #section2, #section3 {
-      font-size: 16px;
-      text-align: center;
+    font-size: 16px;
+    text-align: center;
 }
-
-
 a:any-link {
-  color: black;
-  cursor: pointer;
-  text-decoration: none;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
 }
-/* 已访问的链接 */
 a:any-link:hover { 
-   color: red;
+    color: red;
 } 
 .circle:before {
     content: "";
@@ -131,7 +127,9 @@ a:any-link:hover {
     align-items: center;
     justify-content: center;
 }
-
+.container2 p {
+    text-indent: 2em;
+}
 .container3 {
     border: 1px solid #bae7f9;
     padding: 10px;
@@ -140,33 +138,32 @@ a:any-link:hover {
     margin-left: 250px;
 }
 .container3 p {
-  text-indent: 2em;
+    text-indent: 2em;
 }
 .anchor-link {
     scroll-margin-top: 65px;
 }
 table {
-  width: 989px;
-  border-collapse: collapse;
+    width: 989px;
+    border-collapse: collapse;
 }
 td, th {
-  border: 1px solid gray;
+    border: 1px solid gray;
 }
 tr:first-child {
-  background-color: #ccc; 
+    background-color: #ccc; 
 }
-
 tr:first-child th {
-  background-color: #ccc;
+    background-color: #ccc;
 }
 hr {
-  border-color: rgb(91, 216, 254);
-  margin-left: 250px;
-  border-width: 1px;
-  width: 988px;
+    border-color: rgb(91, 216, 254);
+    margin-left: 250px;
+    border-width: 1px;
+    width: 988px;
 }
 .footer {
-  margin-left: 253px;
+    margin-left: 253px;
     margin-top: 10px;
     font-size: 12px;
     line-height: 18px;
